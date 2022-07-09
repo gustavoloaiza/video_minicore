@@ -28,6 +28,11 @@ function MyStack() {
       }}
     >
       <Stack.Screen
+        name="Inicio"
+        options={{ title: "Home" }}
+        component={Inicio}
+      />
+      <Stack.Screen
         name="UsuarioCrear"
         options={{ title: "Crear Usuario" }}
         component={UsuarioCrear}
@@ -61,11 +66,6 @@ function MyStack() {
         name="CompraPase2"
         options={{ title: "Compra pase: compra" }}
         component={CompraPase2}
-      />
-      <Stack.Screen
-        name="animacion"
-        options={{ title: "animacion" }}
-        component={Animacion}
       />
     </Stack.Navigator>
   );
