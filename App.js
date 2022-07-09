@@ -2,6 +2,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 //importar paginas
+import Inicio from "./app/screens/Inicio";
 import UsuarioCrear from "./app/screens/UsuarioCrear";
 import UsuarioDetalle from "./app/screens/UsuarioDetalle";
 import UsuariosLista from "./app/screens/UsuariosLista";
